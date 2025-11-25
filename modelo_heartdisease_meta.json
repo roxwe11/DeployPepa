@@ -1,0 +1,39 @@
+{
+  "threshold": 0.5,
+  "label_map": {
+    "0": "Sin enfermedad",
+    "1": "Con enfermedad"
+  },
+  "classes_order": [
+    "Sin enfermedad",
+    "Con enfermedad"
+  ],
+  "positive_label_index": 1,
+  "features": {
+    "categorical": [
+      "Smoking",
+      "Alcohol Consumption",
+      "Diabetes",
+      "Gender_Female",
+      "Gender_Male",
+      "Exercise_High",
+      "Exercise_Low",
+      "Stress_High",
+      "Stress_Low"
+    ],
+    "numerical": [
+      "Age",
+      "Blood Pressure",
+      "Cholesterol Level",
+      "Triglyceride Level",
+      "Fasting Blood Sugar",
+      "BMI",
+      "Sleep Hours"
+    ]
+  },
+  "versions": {
+    "python": "3.12.7",
+    "sklearn": "1.5.1"
+  },
+  "random_state": 42
+}
